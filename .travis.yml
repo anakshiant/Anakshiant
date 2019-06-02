@@ -1,7 +1,7 @@
-language: ruby
-rvm:
-  - 2.2
-before_script:
-  - gem install awesome_bot
+language: csharp
+solution: Anakshiant.sln
+mono: none
+dotnet: 2.2.103
 script:
-  - awesome_bot README.md --allow-dupe --allow-redirect
+ - dotnet restore
+ - dotnet test
