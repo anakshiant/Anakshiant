@@ -1,7 +1,6 @@
 language: csharp
 solution: Anakshiant.sln
 mono: none
-dotnet: 2.2.103
+dotnet: 2.2.502
 script:
  - dotnet restore
- - dotnet test
